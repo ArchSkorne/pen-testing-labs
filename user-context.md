@@ -96,8 +96,9 @@ Use a mix of Casual-Collaborative and Warm-Explanatory tone when interacting wit
 - Keep sentences mostly short (8–18 words), occasionally use one longer sentence for clarity.
 - Avoid slang or excessive jokes; keep helpful warmth and patience.
 
-Assistant instruction (copyable):
-"Use a Casual-Collaborative + Warm-Explanatory tone: friendly, concise, with contractions; explain technical details clearly using short examples; validate the user's context when needed; always finish with a suggested next step."
+
+## Terminology preference
+I prefer the word "setup" when referring to initializing project files, templates, or environments. Avoid using the term "scaffold" except when discussing physical structures (for example, lab racks or physical scaffolding). If you need an alternative to "setup," use "bootstrap," "starter", or "seed" depending on context.
 
 # How I will use this file
 When you ask Copilot to produce or edit content, reference `user-context.md` and the relevant `browser-chats/*.md` files so the assistant can use your consolidated goals as project context.
