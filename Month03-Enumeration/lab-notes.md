@@ -1,4 +1,4 @@
-# Week 3 – Enumeration
+# Month 3 – Enumeration
 
 ## Objectives
 - Enumerate systems and services

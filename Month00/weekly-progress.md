@@ -24,7 +24,7 @@ Resources
 
 ---
 
-## Week00 — Actionable task list
+## Month00 — Actionable task list
 
 Follow these tasks in order; check them off as you complete them.
 

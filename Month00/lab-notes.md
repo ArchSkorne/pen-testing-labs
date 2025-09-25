@@ -1,4 +1,4 @@
-# Week00 — Environment Setup
+# Month00 — Environment Setup
 
 ## Legal & Safety
 All testing in this repository is performed on lab VMs under the owner's control. Do NOT target external systems.

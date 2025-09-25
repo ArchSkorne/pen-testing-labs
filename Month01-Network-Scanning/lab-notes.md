@@ -1,4 +1,4 @@
-# Week 1 – Network Scanning
+# Month 1 – Network Scanning
 
 ## Objectives
 - Learn and document Nmap basics

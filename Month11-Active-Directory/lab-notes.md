@@ -1,4 +1,4 @@
-# Week 11 – Active Directory
+# Month 11 – Active Directory
 
 ## Objectives
 - Attack and defend Active Directory environments

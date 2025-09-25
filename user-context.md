@@ -19,9 +19,9 @@ A consolidated, high-level summary of the user's goals, constraints, and the 12-
 - Avoid storing secrets or PII in transcripts.
 
 # Original roadmap fragments (PLACEHOLDER)
-- Preparatory steps: environment setup (VirtualBox, Vagrant, host tooling), legal & safety notes, baseline OS hardening for lab hosts.
-- Week 0: prerequisites and software installs (VMs, tools, accounts, snapshots)
-- Week 1..12: (topic list in repo structure)
+-- Preparatory steps: environment setup (VirtualBox, Vagrant, host tooling), legal & safety notes, baseline OS hardening for lab hosts.
+-- Month 0: prerequisites and software installs (VMs, tools, accounts, snapshots)
+-- Month 1..12: (topic list in repo structure)
 
 # Extracted from recent Copilot chat (2025-09-24)
 - Career transition: move from industrial operations into cybersecurity; target roles include Penetration Tester, SOC Analyst, and GRC Analyst.
@@ -30,12 +30,12 @@ A consolidated, high-level summary of the user's goals, constraints, and the 12-
 - RPCC CSIT evaluation: useful for foundations (A+, Net+, Sec+) but limited for offensive security — include notes in resources or `copilot-context.md`.
 
 # Consolidated next steps (from chat)
-- Document each week’s labs in Markdown and keep them printable.
+-- Document each month's labs in Markdown and keep them printable.
 - Use STAR stories to connect industrial experience to cyber scenarios and include them in `lab-notes.md`.
 - Add preparatory Week0 tasks: environment setup, tool installs, VM snapshotting, legal/safety checklist.
 - Build a professional portfolio on GitHub using this repo; make weekly progress visible.
 
-## Week0 — Preparatory checklist (start here)
+## Month0 — Preparatory checklist (start here)
 Follow these steps before starting Week01 labs. Complete items in order and mark them in `Week00/weekly-progress.md`.
 
 1. Environment & host setup

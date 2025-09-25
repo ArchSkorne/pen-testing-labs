@@ -1,4 +1,4 @@
-# Week 7 – Web Application Security
+# Month 7 – Web Application Security
 
 ## Objectives
 - Test and exploit web applications

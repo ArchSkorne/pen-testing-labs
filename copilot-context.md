@@ -1,23 +1,23 @@
 # 🧠 Penetration Testing Labs – Context for GitHub Copilot
 
-This repository documents a 12-week hands-on penetration testing course. Use this file as the single source of truth for how Copilot and contributors should structure notes, progress, and automation.
+-This repository documents a 12-month hands-on penetration testing course. Use this file as the single source of truth for how Copilot and contributors should structure notes, progress, and automation.
 
 ## 📁 Repo Structure (standard)
-Organized by week:
-- Week01-Network-Scanning
-- Week02-Web-Exploitation
-- Week03-Enumeration
-- Week04-Exploitation
-- Week05-Privilege-Escalation
-- Week06-Post-Exploitation
-- Week07-Web-Application-Security
-- Week08-Network-Attacks
-- Week09-Windows-Exploitation
-- Week10-Linux-Exploitation
-- Week11-Active-Directory
-- Week12-CTF-Practice
+Organized by month:
+- Month01-Network-Scanning
+- Month02-Web-Exploitation
+- Month03-Enumeration
+- Month04-Exploitation
+- Month05-Privilege-Escalation
+- Month06-Post-Exploitation
+- Month07-Web-Application-Security
+- Month08-Network-Attacks
+- Month09-Windows-Exploitation
+- Month10-Linux-Exploitation
+- Month11-Active-Directory
+- Month12-CTF-Practice
 
-Each week folder SHOULD contain these files (templates will be provided):
+Each month folder SHOULD contain these files (templates will be provided):
 - `lab-notes.md` – Objectives, step-by-step walkthrough, results, and STAR stories
 - `weekly-progress.md` – A compact progress tracker (see template below)
 - `nmap-results.txt` – Raw scan output or selected excerpts
@@ -30,11 +30,11 @@ Each week folder SHOULD contain these files (templates will be provided):
 - STAR stories: short, 3–5 bullet STAR entries that map real incidents to learning objectives
 - Technical writeups should contain: Tools used, Methodology (steps), Findings, Remediation/Notes
 
-## 🔁 Weekly Progress Template
-Create `weekly-progress.md` in the relevant `WeekXX-...` folder with this template and update it each session:
+## 🔁 Monthly Progress Template
+Create `weekly-progress.md` in the relevant `MonthXX-...` folder with this template and update it each session:
 
 ---
-Week: Week0X — <short title>
+Month: Month0X — <short title>
 Date(s): YYYY-MM-DD
 Status: not-started | in-progress | completed
 Session length: <hours>
@@ -60,30 +60,30 @@ Resources
 ---
 
 ## 🔄 Workflow & Automation
-- Use Git for version control; branch per major change or week when needed
+- Use Git for version control; branch per major change or month when needed
 - Sync scripts available: `123-sync.bat` (Windows) and `123.sh` (POSIX)
 - Recommended: run a quick `git status` and `git pull` at the start of each session
 
 Optional automation suggestions (can be added later):
-- small script to create a new `WeekXX` folder with templates prefilled
-- CI check that `weekly-progress.md` exists for the current week
+- small script to create a new `MonthXX` folder with templates prefilled
+- CI check that `weekly-progress.md` exists for the current month
 
 ## 🧠 Copilot Tasks & How I’ll help
-- When you say "generate weekly template" or "start Week03", I will create the `Week03/weekly-progress.md` and prefilled `lab-notes.md` sections
+-- When you say "generate monthly template" or "start Month03", I will create the `Month03/weekly-progress.md` and prefilled `lab-notes.md` sections
 - I can fill `lab-notes.md` from a short bullet list you provide or convert raw notes into the printable format described above
 - If you want, I can also create small helper scripts and a `templates/` folder with Markdown templates
 
 ## ✍️ Editing this file
-- Keep this file focused on process and templates — not on weekly content
-- When your workflow changes, ask me to update this file and I'll follow the todo list process
+-- Keep this file focused on process and templates — not on monthly content
+-- When your workflow changes, ask me to update this file and I'll follow the todo list process
 
 ## Templates location
 - Consider adding a `templates/` folder in the repo root with `lab-notes-template.md` and `weekly-progress-template.md`
 
 ```text
-Minimal weekly-progress.md example (to copy into Week05/weekly-progress.md):
+Minimal weekly-progress.md example (to copy into Month05/weekly-progress.md):
 ---
-Week: Week05 — Privilege Escalation
+Month: Month05 — Privilege Escalation
 Date(s): 2025-09-24
 Status: in-progress
 Session length: 2h
@@ -107,11 +107,11 @@ Resources
 ```
 
 ## ✅ Minimal contributor contract (how I, Copilot, will behave)
-- Ask before making any destructive repo-wide edits (deleting files, rewriting week content)
-- Create or update week files only when you ask me to (or give explicit commands like "start week 04")
-- Use the `templates/` folder when generating new files
+-- Ask before making any destructive repo-wide edits (deleting files, rewriting month content)
+-- Create or update month files only when you ask me to (or give explicit commands like "start month 04")
+-- Use the `templates/` folder when generating new files
 
 ## 📌 Next steps I can take for you now
 - Create a `templates/` folder and add `weekly-progress-template.md` and `lab-notes-template.md`
-- Create `Week01/weekly-progress.md` prefilled with the template and mark it `in-progress`
+- Create `Month01/weekly-progress.md` prefilled with the template and mark it `in-progress`
 - Or wait for your confirmation/edits to this process
