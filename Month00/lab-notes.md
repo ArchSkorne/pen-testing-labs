@@ -40,7 +40,7 @@ sudo pacman -S --noconfirm nmap netcat-openbsd sqlmap gobuster nikto jq python p
 4. Test network and tools
 	- From the Arch host, test `nmap` and basic connectivity to the Kali VM and back.
 5. Document
-	- Record installed package versions and the snapshot ID in `Week00/weekly-progress.md`.
+	- Record installed package versions and the snapshot ID in `Month00/weekly-progress.md`.
 
 ## Notes
 - Keep credentials out of repo. Use a local password manager for secrets.

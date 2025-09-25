@@ -1,4 +1,4 @@
-Week: Week00 — Environment & Setup
+Month: Month00 — Environment & Setup
 Date(s): 2025-09-24
 Status: in-progress
 Session length: 0.5h
@@ -28,13 +28,13 @@ Resources
 
 Follow these tasks in order; check them off as you complete them.
 
-- [ ] Install host tools: VirtualBox or VMware Workstation, Git, and VS Code. Document OS-specific commands in `Week00/lab-notes.md` (Arch notes already present).
+- [ ] Install host tools: VirtualBox or VMware Workstation, Git, and VS Code. Document OS-specific commands in `Month00/lab-notes.md` (Arch notes already present).
 - [ ] Provision a Kali VM template (or preferred attacker image), install common tools (nmap, netcat, sqlmap, gobuster, nikto, Burp Suite), and take a clean snapshot.
 - [ ] Configure networking for lab isolation (host-only or NAT) and disable shared folders; document settings.
-- [ ] Create and verify VM snapshots and document restore steps in `Week00/lab-notes.md`.
-- [ ] Add legal & safety checklist to `Week00/lab-notes.md` reminding you to only test on lab VMs you control.
+- [ ] Create and verify VM snapshots and document restore steps in `Month00/lab-notes.md`.
+- [ ] Add legal & safety checklist to `Month00/lab-notes.md` reminding you to only test on lab VMs you control.
 - [ ] Create a local `secrets-example.md` (do not commit) describing credential types and storage recommendation (password manager instructions).
 - [ ] Test repo sync between machines using `123.bat` / `123.sh` (round-trip push/pull).
-- [ ] Run a baseline nmap scan between attacker and target VMs; save output to `Week00/nmap-results.txt`.
-- [ ] Add screenshots and finalize `Week00/lab-notes.md`; commit and push.
+- [ ] Run a baseline nmap scan between attacker and target VMs; save output to `Month00/nmap-results.txt`.
+- [ ] Add screenshots and finalize `Month00/lab-notes.md`; commit and push.
 

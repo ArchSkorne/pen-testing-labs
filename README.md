@@ -1,5 +1,5 @@
 # Pen Testing Labs Portfolio
 
-This repository contains weekly penetration testing labs, STAR stories, and malware case studies.
+This repository contains monthly penetration testing labs, STAR stories, and malware case studies.
 
 ---

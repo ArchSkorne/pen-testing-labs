@@ -38,7 +38,7 @@ You pasted an HTML export of a Copilot chat titled "William Braly – Cybersecur
 - Default terminal directory set to repo root
 
 ## Repo Structure
-Organized by week (Week01..Week12). Each folder contains `lab-notes.md`, `nmap-results.txt`, `resources.md`.
+Organized by month (Month01..Month12). Each folder contains `lab-notes.md`, `nmap-results.txt`, `resources.md`.
 
 ## Copilot Support Needed
 - Generate lab walkthroughs, STAR stories, technical writeups
@@ -51,15 +51,15 @@ Benefits: affordable, foundational certs
 Limitations: not offensive-security focused
 
 ## Next Steps
-- Document each week’s labs in Markdown
+- Document each month's labs in Markdown
 - Use STAR stories to connect industrial experience to cyber scenarios
 - Embed resource links and format for printing
 - Build a professional portfolio with GitHub as the foundation
 
 # Actions / To-dos
 - [ ] Convert RPCC evaluation into a short note under `resources.md` or `copilot-context.md`
-- [ ] Add preparatory Week0 tasks (environment setup, legal/safety notes) to `user-context.md` and Week01 templates
-- [ ] Start Week01 `weekly-progress.md` with environment setup steps (install VirtualBox, snapshot VMs)
+- [ ] Add preparatory Month0 tasks (environment setup, legal/safety notes) to `user-context.md` and Month01 templates
+- [ ] Start Month01 `weekly-progress.md` with environment setup steps (install VirtualBox, snapshot VMs)
 
 # Links
 - `user-context.md`

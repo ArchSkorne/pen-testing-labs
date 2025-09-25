@@ -1,8 +1,8 @@
 ---
-title: "Weekly Progress Template"
+title: "Monthly Progress Template"
 ---
 
-Week: Week0X — <title>
+Month: Month0X — <title>
 Date(s): YYYY-MM-DD
 Status: not-started | in-progress | completed
 Session length: <hours>
