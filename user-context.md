@@ -36,7 +36,7 @@ A consolidated, high-level summary of the user's goals, constraints, and the 12-
 - Build a professional portfolio on GitHub using this repo; make weekly progress visible.
 
 ## Month0 — Preparatory checklist (start here)
-Follow these steps before starting Month01 labs. Complete items in order and mark them in `Month00/weekly-progress.md`.
+Follow these steps before starting Month01 labs. Complete items in order and mark them in `Month00/monthly-progress.md`.
 
 1. Environment & host setup
 	- Install VirtualBox or VMware Workstation on your host machine.
@@ -76,12 +76,10 @@ This maps the existing weekly topics into measurable monthly milestones. Adjust 
 - Month12: CTF practice and portfolio polish (capture-the-flag, writeups, STAR stories) (6–12 hours)
 
 Notes:
-- Treat the hours as flexible; the goal is consistent progress. Record actual session length in `weekly-progress.md` for tracking.
+- Treat the hours as flexible; the goal is consistent progress. Record actual session length in `monthly-progress.md` for tracking.
 -- After each month, add a short STAR story and evidence (screenshots, commands) to `lab-notes.md`.
 
--- Immediate actions
--- - Import browser chats into `browser-chats/` using `templates/import-chat.ps1`.
--- - After import, consolidate key actions into the monthly `weekly-progress.md` file for the relevant month.
+- - After import, consolidate key actions into the monthly `monthly-progress.md` file for the relevant month.
 
 # Notes on provenance
 - Each imported chat file should contain the `source` and `date` in YAML frontmatter.
@@ -105,5 +103,5 @@ When you ask Copilot to produce or edit content, reference `user-context.md` and
 
 # Your turn
 Edit the sections above to capture any missing parts of your original roadmap. Once you confirm, I can:
-- Add a `templates/weekly-progress-template.md` and `templates/lab-notes-template.md`.
+- Add a `templates/monthly-progress-template.md` and `templates/lab-notes-template.md`.
 - Import any chat transcripts you paste here into `browser-chats/` and extract action items into `user-context.md` and MonthXX files.

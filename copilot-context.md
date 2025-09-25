@@ -19,7 +19,7 @@ Organized by month:
 
 Each month folder SHOULD contain these files (templates will be provided):
 - `lab-notes.md` – Objectives, step-by-step walkthrough, results, and STAR stories
-- `weekly-progress.md` – A compact progress tracker (see template below)
+- `monthly-progress.md` – A compact progress tracker (see template below)
 - `nmap-results.txt` – Raw scan output or selected excerpts
 - `resources.md` – Links and references
 
@@ -31,7 +31,7 @@ Each month folder SHOULD contain these files (templates will be provided):
 - Technical writeups should contain: Tools used, Methodology (steps), Findings, Remediation/Notes
 
 ## 🔁 Monthly Progress Template
-Create `weekly-progress.md` in the relevant `MonthXX-...` folder with this template and update it each session:
+Create `monthly-progress.md` in the relevant `MonthXX-...` folder with this template and update it each session:
 
 ---
 Month: Month0X — <short title>
@@ -66,22 +66,20 @@ Resources
 
 Optional automation suggestions (can be added later):
 - small script to create a new `MonthXX` folder with templates prefilled
-- CI check that `weekly-progress.md` exists for the current month
+- CI check that `monthly-progress.md` exists for the current month
 
 ## 🧠 Copilot Tasks & How I’ll help
--- When you say "generate monthly template" or "start Month03", I will create the `Month03/weekly-progress.md` and prefilled `lab-notes.md` sections
-- I can fill `lab-notes.md` from a short bullet list you provide or convert raw notes into the printable format described above
-- If you want, I can also create small helper scripts and a `templates/` folder with Markdown templates
+- When you say "generate monthly template" or "start Month03", I will create the `Month03/monthly-progress.md` and prefilled `lab-notes.md` sections
 
 ## ✍️ Editing this file
 -- Keep this file focused on process and templates — not on monthly content
 -- When your workflow changes, ask me to update this file and I'll follow the todo list process
 
 ## Templates location
-- Consider adding a `templates/` folder in the repo root with `lab-notes-template.md` and `weekly-progress-template.md`
+- Consider adding a `templates/` folder in the repo root with `lab-notes-template.md` and `monthly-progress-template.md`
 
 ```text
-Minimal weekly-progress.md example (to copy into Month05/weekly-progress.md):
+Minimal monthly-progress.md example (to copy into Month05/monthly-progress.md):
 ---
 Month: Month05 — Privilege Escalation
 Date(s): 2025-09-24
@@ -112,6 +110,6 @@ Resources
 -- Use the `templates/` folder when generating new files
 
 ## 📌 Next steps I can take for you now
-- Create a `templates/` folder and add `weekly-progress-template.md` and `lab-notes-template.md`
-- Create `Month01/weekly-progress.md` prefilled with the template and mark it `in-progress`
+- Create a `templates/` folder and add `monthly-progress-template.md` and `lab-notes-template.md`
+- Create `Month01/monthly-progress.md` prefilled with the template and mark it `in-progress`
 - Or wait for your confirmation/edits to this process

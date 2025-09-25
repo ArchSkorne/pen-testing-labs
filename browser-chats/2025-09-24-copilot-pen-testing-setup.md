@@ -59,7 +59,7 @@ Limitations: not offensive-security focused
 # Actions / To-dos
 - [ ] Convert RPCC evaluation into a short note under `resources.md` or `copilot-context.md`
 - [ ] Add preparatory Month0 tasks (environment setup, legal/safety notes) to `user-context.md` and Month01 templates
-- [ ] Start Month01 `weekly-progress.md` with environment setup steps (install VirtualBox, snapshot VMs)
+- [ ] Start Month01 `monthly-progress.md` with environment setup steps (install VirtualBox, snapshot VMs)
 
 # Links
 - `user-context.md`

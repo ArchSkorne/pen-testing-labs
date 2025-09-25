@@ -3,4 +3,4 @@ Templates for Pen-Testing-Labs
 1. import-chat.ps1 - PowerShell script to import browser chat transcripts into `browser-chats/` with YAML frontmatter.
 
 Usage:
-2. Add more templates here as needed (weekly-progress-template.md, lab-notes-template.md)
+2. Add more templates here as needed (monthly-progress-template.md, lab-notes-template.md)

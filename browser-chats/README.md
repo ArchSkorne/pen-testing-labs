@@ -2,4 +2,4 @@ Store exported browser chat transcripts here. Use `templates/import-chat.ps1` to
 
 Naming convention: YYYY-MM-DD-short-title.md
 
-Keep summaries concise and move action items to `weekly-progress.md` or your issue tracker.
+Keep summaries concise and move action items to `monthly-progress.md` or your issue tracker.
