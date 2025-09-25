@@ -5,7 +5,7 @@ source: copilot-browser
 participants:
   - you
   - copilot
-summary: "Career transition goals, repo setup, weekly structure, and next steps for building the Pen-Testing-Labs portfolio."
+summary: "Career transition goals, repo setup, monthly structure, and next steps for building the Pen-Testing-Labs portfolio."
 tags:
   - goals
   - setup

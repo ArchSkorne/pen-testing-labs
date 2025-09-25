@@ -10,7 +10,7 @@ A consolidated, high-level summary of the user's goals, constraints, and the 12-
 # Core goals
 - Complete a 12-month penetration testing curriculum covering network scanning, web exploitation, enumeration, exploitation, privilege escalation, post-exploitation, web app security, network attacks, Windows exploitation, Linux exploitation, Active Directory, and CTF practice.
 - Preserve and document hands-on lab steps, STAR stories, and malware case studies.
-- Maintain a reproducible environment for labs and clear templates for notes and weekly progress.
+ - Maintain a reproducible environment for labs and clear templates for notes and monthly progress.
 
 # Constraints & preferences
 - Work primarily in Markdown within this repo for portability between machines.
@@ -31,9 +31,9 @@ A consolidated, high-level summary of the user's goals, constraints, and the 12-
 
 # Consolidated next steps (from chat)
 -- Document each month's labs in Markdown and keep them printable.
-- Use STAR stories to connect industrial experience to cyber scenarios and include them in `lab-notes.md`.
-- Add preparatory Month0 tasks: environment setup, tool installs, VM snapshotting, legal/safety checklist.
-- Build a professional portfolio on GitHub using this repo; make weekly progress visible.
+ - Use STAR stories to connect industrial experience to cyber scenarios and include them in `lab-notes.md`.
+ - Add preparatory Month0 tasks: environment setup, tool installs, VM snapshotting, legal/safety checklist.
+ - Build a professional portfolio on GitHub using this repo; make monthly progress visible.
 
 ## Month0 — Preparatory checklist (start here)
 Follow these steps before starting Month01 labs. Complete items in order and mark them in `Month00/monthly-progress.md`.
@@ -59,7 +59,7 @@ Follow these steps before starting Month01 labs. Complete items in order and mar
 	- Ensure this repo is cloned on both machines and you can push/pull changes. Test a round-trip git push/pull.
 
 ## Suggested 12-month timeline (measurable milestones)
-This maps the existing weekly topics into measurable monthly milestones. Adjust hours per month to fit your schedule.
+This maps the previous weekly topics into measurable monthly milestones. Adjust hours per month to fit your schedule.
 
 - Month00: Environment setup, tool installs, snapshots (2–4 hours)
 - Month01: Network scanning fundamentals + lab (nmap, basic enumeration) (4–8 hours)
