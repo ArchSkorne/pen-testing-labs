@@ -24,3 +24,31 @@ git clone git@github.com:ArchSkorne/pen-testing-labs.git
 ```
 
 If you maintain custom scripts that reference `weekly-progress.md` or `Week*` folder names, update them to `monthly-progress.md` and `Month*` respectively.
+
+## Sync & hooks
+
+Recommended sync commands:
+
+Windows (PowerShell):
+
+```powershell
+cd 'c:\path\to\pen-testing-labs'
+.\123.bat
+```
+
+Linux / macOS (bash):
+
+```bash
+cd /path/to/pen-testing-labs
+bash ./123.sh
+```
+
+Pre-commit hooks:
+
+This repository includes a sample hook at `.githooks/pre-commit` that blocks accidental commits that reintroduce `weekly-progress.md` or `Week*` folders. To enable hooks locally run:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Note: Git does not enforce hooks via the remote; enabling the hooks is a local step per-machine. CI checks or branch protection are recommended for stronger enforcement.
