@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Prevent accidental commits that add `weekly-progress.md` or resurrect old Week folders
+# This hook is a lightweight safeguard; enable it locally with:
+# git config core.hooksPath .githooks
+
+staged_files=$(git diff --cached --name-only --diff-filter=ACM || true)
+if [ -z "$staged_files" ]; then
+  # nothing staged
+  exit 0
+fi
+
+echo "$staged_files" | while IFS= read -r f; do
+  case "$f" in
+    *weekly-progress.md)
+      echo "ERROR: commit blocked — detected attempt to add or modify 'weekly-progress.md'."
+      echo "This repository uses 'monthly-progress.md' now. Update your files, or contact the repo owner."
+      exit 1
+      ;;
+    Week*/*)
+      echo "ERROR: commit blocked — detected a path under 'Week*' (old naming)."
+      echo "Please rename folders to 'Month*' and update references before committing."
+      exit 1
+      ;;
+    *)
+      ;;
+  esac
+done
+
+exit 0
