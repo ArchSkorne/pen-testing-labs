@@ -1,0 +1,38 @@
+The `security-tools/` folder in your Python projects would be perfect for cybersecurity-specific scripts and tools. Here are the types of projects you'd create there as you advance in your learning:
+
+## Network Security Tools
+- **Port scanners**: Custom Python implementations using `socket` library
+- **Network discovery scripts**: ARP scanning, subnet enumeration
+- **Protocol analyzers**: Packet capture and analysis tools
+- **Vulnerability scanners**: Custom scripts to check for specific CVEs
+- **Network monitoring**: Traffic analysis and anomaly detection
+
+## Web Application Security
+- **SQL injection testers**: Automated payload delivery and response analysis
+- **Directory busters**: Web directory and file enumeration
+- **Form fuzzers**: Input validation testing scripts
+- **Cookie/session analyzers**: Authentication bypass tools
+- **XSS detection scripts**: Cross-site scripting vulnerability finders
+
+## System Security & Forensics
+- **File integrity checkers**: Hash comparison and change detection
+- **Log analyzers**: Security event parsing and correlation
+- **Memory dumpers**: Process memory extraction tools
+- **Registry analyzers**: Windows registry security assessment
+- **Malware detectors**: Basic signature and behavior analysis
+
+## Penetration Testing Utilities
+- **Payload generators**: Custom shellcode and exploit creation
+- **Post-exploitation tools**: Data exfiltration and persistence scripts
+- **Privilege escalation checkers**: System weakness identification
+- **Report generators**: Automated pentest documentation
+- **Credential harvesters**: Password and hash collection tools
+
+## Automation & Integration
+- **API security testers**: REST/GraphQL vulnerability assessment
+- **CI/CD security scanners**: Pipeline security validation
+- **Cloud security auditors**: AWS/Azure configuration checkers
+- **OSINT collectors**: Information gathering and reconnaissance
+- **Threat intelligence feeds**: IOC collection and analysis
+
+These would integrate perfectly with your pen-testing lab months, providing hands-on Python implementation of the concepts you're learning!
