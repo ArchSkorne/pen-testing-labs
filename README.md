@@ -29,18 +29,18 @@ If you maintain custom scripts that reference `weekly-progress.md` or `Week*` fo
 
 Recommended sync commands:
 
+Linux / macOS (bash):
+
+```bash
+cd /home/skorne/pen-testing-labs
+bash ./123.sh
+```
+
 Windows (PowerShell):
 
 ```powershell
 cd 'c:\path\to\pen-testing-labs'
 .\123.bat
-```
-
-Linux / macOS (bash):
-
-```bash
-cd /path/to/pen-testing-labs
-bash ./123.sh
 ```
 
 Pre-commit hooks:

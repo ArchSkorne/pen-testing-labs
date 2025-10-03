@@ -63,4 +63,4 @@ Limitations: not offensive-security focused
 
 # Links
 - `user-context.md`
-- `templates/import-chat.ps1`
+- `templates/import-chat.ps1` (PowerShell - consider bash version for Linux)

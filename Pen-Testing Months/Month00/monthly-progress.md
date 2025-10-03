@@ -34,7 +34,7 @@ Follow these tasks in order; check them off as you complete them.
 - [ ] Create and verify VM snapshots and document restore steps in `Month00/lab-notes.md`.
 - [ ] Add legal & safety checklist to `Month00/lab-notes.md` reminding you to only test on lab VMs you control.
 - [ ] Create a local `secrets-example.md` (do not commit) describing credential types and storage recommendation (password manager instructions).
-- [ ] Test repo sync between machines using `123.bat` / `123.sh` (round-trip push/pull).
+- [ ] Test repo sync between machines using `123.sh` / `123.bat` (round-trip push/pull).
 - [ ] Run a baseline nmap scan between attacker and target VMs; save output to `Month00/nmap-results.txt`.
 - [ ] Add screenshots and finalize `Month00/lab-notes.md`; commit and push.
 

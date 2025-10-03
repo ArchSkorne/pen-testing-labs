@@ -61,7 +61,7 @@ Resources
 
 ## 🔄 Workflow & Automation
 - Use Git for version control; branch per major change or month when needed
-- Sync scripts available: `123-sync.bat` (Windows) and `123.sh` (POSIX)
+- Sync scripts available: `123.sh` (Linux/POSIX) and `123.bat` (Windows)
 - Recommended: run a quick `git status` and `git pull` at the start of each session
 
 Optional automation suggestions (can be added later):
