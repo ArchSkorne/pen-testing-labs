@@ -1,5 +1,3 @@
-The `security-tools/` folder in your Python projects would be perfect for cybersecurity-specific scripts and tools. Here are the types of projects you'd create there as you advance in your learning:
-
 ## Network Security Tools
 - **Port scanners**: Custom Python implementations using `socket` library
 - **Network discovery scripts**: ARP scanning, subnet enumeration
@@ -35,4 +33,3 @@ The `security-tools/` folder in your Python projects would be perfect for cybers
 - **OSINT collectors**: Information gathering and reconnaissance
 - **Threat intelligence feeds**: IOC collection and analysis
 
-These would integrate perfectly with your pen-testing lab months, providing hands-on Python implementation of the concepts you're learning!
