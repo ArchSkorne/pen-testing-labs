@@ -27,10 +27,12 @@ You pasted an HTML export of a Copilot chat titled "William Braly – Cybersecur
 
 ## Skills & Strengths
 - Risk management, compliance, safety mindset
-- Team leadership and incident response
+- Team leadership and incident response  
 - Hands-on labs via TryHackMe, Hack The Box
 - Document organization and STAR story crafting
 - Workflow discipline and printable formatting
+- Operations background with systems thinking and process documentation
+- Strategic career planning with financial stability during transition
 
 ## GitHub Repo Setup
 - Repo: `pen-testing-labs` (owner: ArchSkorne)

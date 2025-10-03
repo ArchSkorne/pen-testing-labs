@@ -23,17 +23,28 @@ A consolidated, high-level summary of the user's goals, constraints, and the 12-
 -- Month 0: prerequisites and software installs (VMs, tools, accounts, snapshots)
 -- Month 1..12: (topic list in repo structure)
 
-# Extracted from recent Copilot chat (2025-09-24)
-- Career transition: move from industrial operations into cybersecurity; target roles include Penetration Tester, SOC Analyst, and GRC Analyst.
-- Education/Certs in progress: CompTIA Network+, Security+; goals: CEH, OSCP, CISSP.
-- Strengths to leverage: risk management, compliance, safety mindset, incident response, STAR story experience, and strong document organization.
-- RPCC CSIT evaluation: useful for foundations (A+, Net+, Sec+) but limited for offensive security — include notes in resources or `copilot-context.md`.
+# Current Role & Career Transition Strategy (Updated 2025-10-03)
+- **Current Position**: Subcontracted Operations Assist Technician - strategic stepping stone role providing financial stability during cybersecurity transition
+- **Alternative Paths Offered**: Vacuum truck operator or operations career track (declined in favor of cybersecurity)
+- **Career Transition**: Moving from industrial operations into cybersecurity; cybersecurity has been a long-held interest, not a sudden pivot
+- **Target Roles**: Junior Penetration Tester, Junior Cybersecurity Analyst, SOC Analyst, and GRC Analyst
+- **Education/Certs in Progress**: CompTIA Network+, Security+; goals: CEH, OSCP, CISSP
+- **Transition Timeline**: Continuing current role until sufficient certifications and portfolio are developed for cybersecurity job applications
+- **Strengths to Leverage**: Risk management, compliance, safety mindset, incident response, STAR story experience, strong document organization, systems thinking from operations background
+- **RPCC CSIT Evaluation**: Useful for foundations (A+, Net+, Sec+) but limited for offensive security — include notes in resources or `copilot-context.md`
 
 # Consolidated next steps (from chat)
 -- Document each month's labs in Markdown and keep them printable.
  - Use STAR stories to connect industrial experience to cyber scenarios and include them in `lab-notes.md`.
  - Add preparatory Month0 tasks: environment setup, tool installs, VM snapshotting, legal/safety checklist.
  - Build a professional portfolio on GitHub using this repo; make monthly progress visible.
+
+# Strategic Transition Approach
+- **Maintaining Financial Stability**: Continuing operations role while building cybersecurity credentials and portfolio
+- **Systematic Skill Building**: 12-month pen-testing curriculum + Python programming foundation (Mosh + FreeCodeCamp courses)  
+- **Portfolio Development**: Using GitHub repository to demonstrate systematic learning approach and technical documentation skills
+- **Experience Bridge**: Leveraging operations background for industrial/critical infrastructure cybersecurity opportunities
+- **STAR Story Development**: Converting operations incidents and problem-solving experiences into cybersecurity-relevant scenarios
 
 ## Month0 — Preparatory checklist (start here)
 Follow these steps before starting Month01 labs. Complete items in order and mark them in `Month00/monthly-progress.md`.

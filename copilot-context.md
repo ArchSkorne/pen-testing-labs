@@ -1,6 +1,14 @@
 # 🧠 Penetration Testing Labs – Context for GitHub Copilot
 
--This repository documents a 12-month hands-on penetration testing course. Use this file as the single source of truth for how Copilot and contributors should structure notes, progress, and automation.
+This repository documents a 12-month hands-on penetration testing course for William Braly's career transition from industrial operations to cybersecurity. Use this file as the single source of truth for how Copilot and contributors should structure notes, progress, and automation.
+
+## 👤 User Background (Updated 2025-10-03)
+- **Current Role**: Subcontracted Operations Assist Technician (transitional position)
+- **Career Goal**: Junior Penetration Tester / Cybersecurity Analyst
+- **Background**: P-Tech degree, welding certification, industrial operations experience
+- **Transition Strategy**: Maintaining current employment while building cybersecurity portfolio and certifications
+- **Timeline**: Systematic 12-month learning plan + ongoing certification work (Network+, Security+, CEH, OSCP)
+- **Unique Value**: Operations background valuable for industrial/critical infrastructure security roles
 
 ## 📁 Repo Structure (standard)
 Organized by month:
